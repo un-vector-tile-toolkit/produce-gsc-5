@@ -194,6 +194,16 @@ const lut = {
     delete f.properties['mission']
     return f
   },
+  unmap_wbya10_a: f => {
+    f.tippecanoe = {
+      layer: 'watera-s',
+      minzoom: 2,
+      maxzoom: 5
+    }
+    delete f.properties['objectid']
+    delete f.properties['fid_1']
+    return f
+  },
   unmap_bnda_label_03_p: f => {
     f.tippecanoe = {
       layer: 'lab_cty',

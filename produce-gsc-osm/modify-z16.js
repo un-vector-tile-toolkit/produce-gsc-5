@@ -188,13 +188,15 @@ const lut = {
     delete f.properties['status']
     return f
   },
-
 // 2. water
   water_all_a: f => {
     f.tippecanoe = {
       layer: 'watera',
       minzoom: minzoomWater(f),
       maxzoom: 16
+    }
+    if (f.properties.fclass === 'glacier') {
+      f.tippecanoe.maxzoom = 15
     }
     delete f.properties['class']
     delete f.properties['destination']

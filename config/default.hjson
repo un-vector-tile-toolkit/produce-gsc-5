@@ -143,14 +143,14 @@ osm_planet::vectortile::waterways_small_l
 osm_planet::vectortile::buildings_a   
   ]
   mbtilesDir: produce-gsc-osm/mbtiles/osm_tile
-  mbtilesDir_every: produce-gsc-osm-46/mbtiles/osm_tile_every
-  mbtilesDir_day01: produce-gsc-osm-46/mbtiles/osm_tile_day01
-  mbtilesDir_day02: produce-gsc-osm-46/mbtiles/osm_tile_day02
-  mbtilesDir_day03: produce-gsc-osm-46/mbtiles/osm_tile_day03
-  mbtilesDir_day04: produce-gsc-osm-46/mbtiles/osm_tile_day04
-  mbtilesDir_day05: produce-gsc-osm-46/mbtiles/osm_tile_day05
-  mbtilesDir_day06: produce-gsc-osm-46/mbtiles/osm_tile_day06
-  mbtilesDir_day07: produce-gsc-osm-46/mbtiles/osm_tile_day07
+  mbtilesDir_every: produce-gsc-osm/mbtiles/osm_tile_every
+  mbtilesDir_day01: produce-gsc-osm/mbtiles/osm_tile_day01
+  mbtilesDir_day02: produce-gsc-osm/mbtiles/osm_tile_day02
+  mbtilesDir_day03: produce-gsc-osm/mbtiles/osm_tile_day03
+  mbtilesDir_day04: produce-gsc-osm/mbtiles/osm_tile_day04
+  mbtilesDir_day05: produce-gsc-osm/mbtiles/osm_tile_day05
+  mbtilesDir_day06: produce-gsc-osm/mbtiles/osm_tile_day06
+  mbtilesDir_day07: produce-gsc-osm/mbtiles/osm_tile_day07
   propertyBlacklist: [
     description
     fid

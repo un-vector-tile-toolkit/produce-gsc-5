@@ -90,7 +90,7 @@ un-l: {
     un_base::vectortile::unmap_popp_p
     un_base::vectortile::custom_planet_coastline_l
    ]
-  mbtilesDir: produce-gsc-un-46/mbtiles/un_tile
+  mbtilesDir: produce-gsc-un/mbtiles/un_tile
   propertyBlacklist: [
     description
     fid
@@ -142,7 +142,7 @@ osm_planet::vectortile::waterways_large_l
 osm_planet::vectortile::waterways_small_l
 osm_planet::vectortile::buildings_a   
   ]
-  mbtilesDir: produce-gsc-osm-46/mbtiles/osm_tile
+  mbtilesDir: produce-gsc-osm/mbtiles/osm_tile
   mbtilesDir_every: produce-gsc-osm-46/mbtiles/osm_tile_every
   mbtilesDir_day01: produce-gsc-osm-46/mbtiles/osm_tile_day01
   mbtilesDir_day02: produce-gsc-osm-46/mbtiles/osm_tile_day02
